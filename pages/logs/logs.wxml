@@ -1,6 +1,174 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+
+<view class="fk1">
+  <view>
+    <view>
+      <text class="fk1_0">实时数据：</text>
+    </view>
+    <view class="fk1_00">
+      <view>
+        <text class="fk1_1">PV点击量：{{countpv}}</text>
+      </view>
+      <view>
+        <text class="fk1_2">独立访客数：{{countuv}}</text>
+      </view>
+      <view>
+        <text class="fk1_3">新增用户数：{{countiv}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="fk11">
+  <view>
+    <view>
+      <text class="fk11_0">最近一周数据：</text>
+    </view>
+    <view class="fk11_00">
+      <view>
+        <text class="fk11_1">最近一周PV点击量：{{countWeekPv}}</text>
+      </view>
+      <view>
+        <text class="fk11_2">最近一周独立访客数：{{countWeekUv}}</text>
+      </view>
+      <view>
+        <text class="fk11_3">最近一周新增用户数：{{countWeekIv}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="fk2">
+  <view>
+    <image class="fk2_image" src="image/fangke.png"></image>
+    <text class="fk2_1">访客来源分布</text>
+  </view>
+  <view class="fk2_0">
+    <view>
+      <text class="fk2_2">聊天主页面下拉</text>
+      <image class="fk_image2" src="image/bangzhu.png"></image>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">微信好友分享</text>
+      <image class="fk_image2" src="image/bangzhu.png"></image>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">发现栏——小程序</text>
+      <image class="fk_image2" src="image/bangzhu.png"></image>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">微信群分享</text>
+      <image class="fk_image2" src="image/bangzhu@2x.png"></image>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">搜索</text>
+      <image class="fk_image2" src="image/bangzhu.png"></image>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">其他</text>
+      <image class="fk_image2" src="image/bangzhu.png"></image>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+  </view>
+</view>
+<view class="fk3">
+  <view>
+    <image class="fk2_image" src="image/user.png"></image>
+    <text class="fk2_1">用户信息</text>
+  </view>
+  <view class="fk3_0">
+    <view>
+      <text class="fk2_2">有电话</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">无电话</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+  </view>
+</view>
+<view class="fk4">
+  <view>
+    <image class="fk2_image" src="image/xiaofei.png"></image>
+    <text class="fk2_1">消费行为</text>
+
+  </view>
+  <view class="fk4_0">
+    <view>
+      <text class="fk2_2">无消费</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">加入收藏</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">一次消费</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+    <view>
+      <text class="fk2_2">多次消费</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+
+    </view>
+  </view>
+</view>
+
+<view class="fk5">
+  <view>
+    <image class="fk2_image" src="image/xingbie.png"></image>
+    <text class="fk2_1">用户性别</text>
+  </view>
+  <view class="fk5_0">
+    <view>
+      <text class="fk2_2">男</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+    </view>
+    <view>
+      <text class="fk2_2">女</text>
+
+      <text class="fk_renshu">11人{{}}</text>
+      <image class="fk_image3" src="image/xiala.png"></image>
+    </view>
+  </view>
 </view>

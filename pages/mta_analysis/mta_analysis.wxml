@@ -1,0 +1,6 @@
+<!--mta_analysis.wxml-->
+<view class="container mta_analysis-list">
+  <block wx:for="{{mta_analysis}}" wx:for-item="mta_analysis">
+    <text class="mta_analysis-item">{{index + 1}}. {{mta_analysis}}</text>
+  </block>
+</view>

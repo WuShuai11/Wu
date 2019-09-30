@@ -1,8 +1,119 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.fk1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 30rpx;
+  padding: 20rpx;
+  display: block;
 }
-.log-item {
-  margin: 10rpx;
+
+.fk11 {
+  width: 100%;
+  height: 100%;
+  padding-left: 30rpx;
+  padding: 20rpx;
+  display: block;
+}
+
+.fk2 {
+  width: 100%;
+  height: 100%;
+  padding-left: 30rpx;
+  padding: 20rpx;
+  display: block;
+}
+
+.fk2_1 {
+  width: 100%;
+  height: 100%;
+  color: #333;
+  font-weight: 550;
+  font-size: 28rpx;
+}
+
+.fk2_2 {
+  width: 100%;
+  height: 100%;
+  color: #555;
+  font-size: 28rpx;
+}
+
+.fk2_image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.fk_image2 {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.fk_renshu {
+  width: 100%;
+  height: 100%;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  text-align: right;
+}
+
+.fk_image3 {
+  width: 10rpx;
+  height: 10rpx;
+}
+
+.fk3 {
+  width: 100%;
+  height: 100%;
+  padding-left: 30rpx;
+  padding: 20rpx;
+  display: block;
+  color: #555;
+}
+
+.fk4 {
+  width: 100%;
+  height: 100%;
+  padding-left: 30rpx;
+  padding: 20rpx;
+  display: block;
+}
+
+.fk5 {
+  width: 100%;
+  height: 100%;
+  padding-left: 30rpx;
+  padding: 20rpx;
+  display: block;
+}
+
+.fk1_0 {
+  padding: 30rpx;
+}
+
+.fk1_00 {
+  padding-left: 80rpx;
+}
+
+.fk11_0 {
+  padding: 30rpx;
+}
+
+.fk11_00 {
+  padding-left: 80rpx;
+}
+
+.fk2_0 {
+  padding-left: 30rpx;
+}
+
+.fk3_0 {
+  padding-left: 30rpx;
+}
+
+.fk4_0 {
+  padding-left: 30rpx;
+}
+
+.fk5_0 {
+  padding-left: 30rpx;
 }
