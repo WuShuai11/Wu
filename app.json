@@ -2,12 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mta_analysis/mta_analysis"
+    "pages/mta_analysis/mta_analysis",
+    "pages/ZhiYan_top/ZhiYan_top",
+    "pages/ZhiYan_user/ZhiYan_user",
+    "pages/ZhiYan_map/ZhiYan_map"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+   
     "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

@@ -1,0 +1,26 @@
+<view>
+  <view>
+  <view>
+  <view>
+    <text class="ZhiYan_text2">上海芷研医疗美容门诊部</text>
+  </view>
+  <view>
+    <text class="ZhiYan_text3">上海市静安区南京西路818号19楼</text>
+  </view>
+  <view>
+    <text class="ZhiYan_text4">营业时间：周一到周日9:00-20:00</text>
+  </view>
+  <view>
+    <text class="ZhiYan_text4">停车位：有停车位，可代泊车</text>
+  </view>
+</view>
+    <map class="ZhiYan_map"></map>
+    <text></text>
+  </view>
+  
+</view>
+
+
+<view>
+  <text class="ZhiYan_text1">深圳银创网络科技提供技术支持</text>
+</view>

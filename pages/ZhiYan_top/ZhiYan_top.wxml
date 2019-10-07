@@ -1,0 +1,168 @@
+<view>
+  <view class="zy1_1">
+    <image src="image/bangzhu.png"></image>
+    <view>
+      <text class="zy1_2">来自芷研的美丽篇章</text>
+    </view>
+    <view>
+      <text class="zy1_3">BEAUTIFUL CHAPTER</text>
+    </view>
+  </view>
+  <view class="zy2-0">
+    <view class="zy2-1">
+      <text class="zy2-1-text1">芷研项目</text>
+      <view>
+        <text class="zy2-1-text2">ELYSIAN</text>
+      </view>
+      <view>
+        <text class="zy2-1-text2">PROJECT</text>
+      </view>
+    </view>
+
+    <view class="zy2-1">
+      <text class="zy2-1-text1">本月主打</text>
+      <view>
+        <text class="zy2-1-text2">MONTH’S</text>
+      </view>
+      <view>
+        <text class="zy2-1-text2">FLACSHIP</text>
+      </view>
+    </view>
+
+    <view class="zy2-1">
+      <text class="zy2-1-text1">积分商城</text>
+      <view>
+        <text class="zy2-1-text2">INTECRAL</text>
+      </view>
+      <view>
+        <text class="zy2-1-text2">MALL</text>
+      </view>
+    </view>
+  </view>
+  <view class="zy2-0">
+    <view class="zy2-1">
+      <text class="zy2-1-text1">国际医师</text>
+      <view>
+        <text class="zy2-1-text2">INTL</text>
+      </view>
+      <view>
+        <text class="zy2-1-text2">PHYSICIAN</text>
+      </view>
+    </view>
+
+    <view class="zy2-1">
+      <text class="zy2-1-text1">芷研动态</text>
+      <view>
+        <text class="zy2-1-text2">ELYSIAN</text>
+      </view>
+      <view>
+        <text class="zy2-1-text2">DYNAMIC</text>
+      </view>
+    </view>
+
+    <view class="zy2-1">
+      <text class="zy2-1-text1">关于芷研</text>
+      <view>
+        <text class="zy2-1-text2">ABOUT</text>
+      </view>
+      <view>
+        <text class="zy2-1-text2">ELYSIAN</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="zy4-1"> </view>
+<view>
+  <view class="zy3-1">
+    <view>
+      <text class="zy3-1-text1">QUALITY PROJECT</text>
+    </view>
+    <view>
+      <text class="zy3-1-text2">— 精品项目 —</text>
+    </view>
+    <text class="zy3-1-text3">MORE >>></text>
+  </view>
+
+</view>
+<view class="zy4-1"> </view>
+<view>
+  <view class="zy3-1">
+    <view>
+      <text class="zy3-1-text1">TEAM OF PHYSICIANS</text>
+    </view>
+    <view>
+      <text class="zy3-1-text2">— 团队医师 —</text>
+    </view>
+    <text class="zy3-1-text3">MORE >>></text>
+
+
+    <view class="zy2-0">
+      <view class="zy2-1">
+        <text class="zy2-1-text1">刘志国 医师</text>
+        <view>
+          <text class="zy2-1-text2">隆胸、纹眉</text>
+        </view>
+      </view>
+
+      <view class="zy2-1">
+         <text class="zy2-1-text1">刘志国 医师</text>
+        <view>
+          <text class="zy2-1-text2">隆胸、纹眉</text>
+        </view>
+      </view>
+
+      <view class="zy2-1">
+         <text class="zy2-1-text1">刘志国 医师</text>
+        <view>
+          <text class="zy2-1-text2">隆胸、纹眉</text>
+        </view>
+      </view>
+    </view>
+  
+  </view>
+
+
+</view>
+<view class="zy4-1"> </view>
+<view>
+  <view class="zy3-1">
+    <view>
+      <text class="zy3-1-text1">INFORMATION</text>
+    </view>
+    <view>
+      <text class="zy3-1-text2">— 行业资讯 —</text>
+    </view>
+    <text class="zy3-1-text3">MORE >>></text>
+  </view>
+
+</view>
+<view class="zy4-1"> </view>
+<view>
+  <view class="zy3-1">
+    <view>
+      <text class="zy3-1-text1">BUSINESS INFORMATION</text>
+    </view>
+    <view>
+      <text class="zy3-1-text2">— 商户信息 —</text>
+    </view>
+    <view>
+      <view>
+        <text class="zy3-1-text4">上海芷研医疗美容门诊部</text>
+      </view>
+      <view>
+        <text class="zy3-1-text2">上海市静安区南京西路818号19楼</text>
+      </view>
+      <view>
+        <text class="zy3-1-text5">营业时间：周一到周日9:00-20:00</text>
+      </view>
+      <view>
+        <text class="zy3-1-text5">停车位：有停车位，可代可泊车</text>
+      </view>
+
+    </view>
+  </view>
+  <view class="zy4-1"> </view>
+  <view>
+    <text class="zy3-1-text6">深圳银创网络科技提供技术支持</text>
+  </view>
+</view>

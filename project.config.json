@@ -48,12 +48,41 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
 					"name": "pages/logs/logs",
 					"pathName": "pages/logs/logs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ZhiYan_top/ZhiYan_top",
+					"pathName": "pages/ZhiYan_top/ZhiYan_top",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ZhiYan_top/ZhiYan_top",
+					"pathName": "pages/ZhiYan_top/ZhiYan_top",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/ZhiYan_user/ZhiYan_user",
+					"pathName": "pages/ZhiYan_user/ZhiYan_user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ZhiYan_map/ZhiYan_ map",
+					"pathName": "pages/ZhiYan_map/ZhiYan_map",
+					"query": "",
 					"scene": null
 				}
 			]
