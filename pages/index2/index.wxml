@@ -13,12 +13,13 @@
 			</navigator>
 		</view>
 	</view>
-	<view class="info clearfix" bindtap="openMap">
-		<view class="info_l">
-			<view class="address">MRARE(133 Guangyuan Road,Xuhui District)</view>
-			<view class="desc">为高端人士量身定制精品医美服务</view>
+	<view class="info">
+		<image class="info_l" src="../../images/info_img.png" />
+		<view class="info_c">
+			<view class="name">上海名仁Mrare医疗美容</view>
+			<view class="address" bindtap="openMap">上海市徐汇区广元路133号</view>
 		</view>
-		<image class="info_r" src="../../images/angle_right.png"></image>
+		<image class="info_r" src="../../images/phone.png" bindtap="toCall" />
 	</view>
 	<view class="menu">
 		<view class="menu_list" wx:for="{{menuList}}" wx:key="id" data-id="{{item.Id}}" data-url="{{item.url+'?id='+item.Id}}" bindtap="goTo" >
@@ -133,16 +134,8 @@
 			</view>
 		</view>
 	</view>
-	<view class="wechat">
-		<image src="../../images/phone.png" bindtap="toCall"></image>
-		<button open-type='contact'>
-			<image src="../../images/wechat.png"></image>
-		</button>
-	</view>
-	<view class="bottom_infor">
-		<image src="../../images/bottom_infor.png" mode=""></image>
-	</view>
+	<button class="wechat" open-type='contact'>
+		<image src="../../images/wechat.png"></image>
+	</button>
+	<view style="height: 1rpx;"></view>
 </view>
-
-
-

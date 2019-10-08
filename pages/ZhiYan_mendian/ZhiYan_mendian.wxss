@@ -1,0 +1,47 @@
+
+.shiping_2_image3 {
+  width: 375px;
+  height: 270px;
+  padding-bottom: 10rpx;
+  /* background: black; */
+  opacity: 1;
+}
+.bofang{  position: relative;
+}
+.shiping_2_image4 {
+   position: absolute;
+  bottom: -300rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60rpx;
+  height: 60rpx;
+  /* background: white; */
+}
+
+.shiping_2 {
+  /* background: rgba(247, 247, 247, 1); */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20rpx;
+}
+
+.user_4 {
+  width: 750rpx;
+  height: 100rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20rpx;
+
+}
+
+.user_4_text {
+  width: 280rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  bottom: 50rpx;
+}

@@ -1,0 +1,44 @@
+<view>
+  <view class="shiping_2">
+
+    <view>
+      <image class="shiping_1_image" src="image/fenlei.png"></image>
+    </view>
+    <!--    
+    <text class="shiping_2_text">/SHOP HALL PHOTOS/</text> -->
+    <view>
+      <view>
+        <!-- <text class="shiping_2_text">/SHOP HALL PHOTOS/</text> -->
+        <image class="shiping_2_image3" src="image/image1.png"></image>
+
+      </view>
+    </view>
+    <image class="shiping_2_image2" src="image/image1.png"></image>
+    <image class="shiping_2_image2" src="image/image1.png"></image>
+  </view>
+
+  <view class="text1">
+    <text class="shiping_2_text2">/芷研大厅/</text>
+
+  </view>
+  <view class="shiping_2">
+    <view>
+      <image class="shiping_1_image" src="image/fenlei.png"></image>
+    </view>
+    <image class="shiping_2_image4" src="image/image1.png"></image>
+    <image class="shiping_2_image3" src="image/image1.png"></image>
+    <text class="shiping_2_text">/SHOP HALL PHOTOS/</text>
+    <image class="shiping_2_image2" src="image/image1.png"></image>
+    <image class="shiping_2_image2" src="image/image1.png"></image>
+  </view>
+  <view class="text1">
+    <text class="shiping_2_text2">/芷研大厅/</text>
+
+  </view>
+  <view>
+    <view class="user_4">
+      <text class="user_4_text">深圳银创网络科技提供技术支持</text>
+    </view>
+  </view>
+
+</view>

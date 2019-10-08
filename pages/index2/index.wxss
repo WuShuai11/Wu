@@ -52,33 +52,41 @@ page{
 }
 .info{
   background: #fff;
+  height: 120rpx;
   border-radius:20rpx 20rpx 0px 0px;
   position: relative;
 }
 .info .info_l{
-  float: left;
-  margin-left: 34rpx;
+  position: absolute;
+  left: 32rpx;
+  top: -10rpx;
+  width: 120rpx;
+  height: 120rpx;
 }
-.info .info_l .address{
-  height:38rpx;
-  font-size:28rpx;
+.info .info_c{
+  margin-left: 170rpx;
+  float: left;
+}
+.info .info_c .name{
+  height:42rpx;
+  font-size:30rpx;
   font-weight:500;
   color:rgba(0,0,0,1);
-  line-height:38rpx;
-  margin: 30rpx 0 8rpx;
+  line-height:42rpx;
+  padding: 18rpx 0 8rpx;
 }
-.info .info_l .desc{
+.info .info_c .address{
   height:34rpx;
-  font-size:24rpx;
-  font-weight:300;
-  color:rgba(153,153,153,1);
   line-height:34rpx;
+  font-size: 24rpx;
+  color: rgba(153,153,153,1);
 }
 .info .info_r{
-  width: 16rpx;
-  height: 26rpx;
   float: right;
-  margin: 38rpx 32rpx 0 0;
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: top;
+  margin: 26rpx 32rpx 0 0;
 }
 .menu{
   display: flex;
@@ -90,7 +98,7 @@ page{
 .menu .menu_list{
   flex: 1;
   text-align: center;
-  margin: 38rpx 0 28rpx;
+  margin: 36rpx 0 44rpx;
 }
 .menu .menu_list image{
   width: 72rpx;
@@ -299,6 +307,7 @@ page{
 .news .news_box .news_box_item .cont{
   width:220rpx;
   height:220rpx;
+  /* background:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(255,255,255,0) 50%,rgba(0,0,0,0.51) 100%); */
   position: absolute;
   top: 0;
   left: 0;
@@ -364,30 +373,14 @@ page{
   line-height:40rpx;
 }
 .wechat{
+  width: 88rpx;
+  height: 88rpx;
   position: fixed;
-  bottom: 80rpx;
-  right: 12rpx;
+  bottom: 58rpx;
+  right: 20rpx;
   background-color: transparent;
 }
 .wechat image{
-  width: 104rpx;
-  height: 100rpx;
-  display: block;
-}
-.wechat image:first-child{
-  margin-bottom: 8rpx;
-}
-.wechat button{
-  background: transparent;
-}
-.bottom_infor{
-  background: #fff;
-}
-.bottom_infor image{
-  display: block;
-  width: 412rpx;
-  height: 44rpx;
-  padding: 28rpx 0 24rpx;
-  
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }

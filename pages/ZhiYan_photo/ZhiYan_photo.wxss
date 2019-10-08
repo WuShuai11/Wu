@@ -1,0 +1,78 @@
+.shiping_1_image {
+  position: fixed;
+  top: 30rpx;
+  right: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 52rpx;
+  opacity: 0.6;
+}
+
+.shiping_1_button1 {
+  position: fixed;
+  top: 30rpx;
+  right: 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 52rpx;
+  opacity: 0.6;
+}
+
+.shiping_2 {
+  position: relative;
+}
+.shiping_2_image3{
+  width: 375px;
+  height: 375px;
+  padding-bottom: 10rpx;
+}
+.shiping_2_image4{
+  width: 375px;
+  height: 375px;
+    padding-bottom: -10rpx;
+
+}
+.shiping_2_image2 {
+  width: 375rpx;
+  height: 375rpx;
+}
+
+.shiping_2_text {
+  width: 300rpx;
+  height: 21rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFangSC;
+  font-weight: 500;
+  /* color: rgba(255, 255, 255, 1); */
+  line-height: 21rpx;
+  position: absolute;
+  bottom: -50rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.text1{
+  height: 80rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.user_4 {
+  width: 750rpx;
+  height: 100rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.user_4_text {
+  width: 280rpx;
+  height: 30rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  font-weight: 300;
+  color: rgba(51, 51, 51, 1);
+  /* position: fixed; */
+  bottom: 50rpx;
+}

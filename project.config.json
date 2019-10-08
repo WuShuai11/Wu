@@ -48,7 +48,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -58,30 +58,58 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/ZhiYan_top/ZhiYan_top",
+					"id": 1,
+					"name": "首页",
 					"pathName": "pages/ZhiYan_top/ZhiYan_top",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/ZhiYan_top/ZhiYan_top",
-					"pathName": "pages/ZhiYan_top/ZhiYan_top",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "pages/ZhiYan_user/ZhiYan_user",
+					"id": 2,
+					"name": "user",
 					"pathName": "pages/ZhiYan_user/ZhiYan_user",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/ZhiYan_map/ZhiYan_ map",
+					"id": 3,
+					"name": "map",
 					"pathName": "pages/ZhiYan_map/ZhiYan_map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "门店视频",
+					"pathName": "pages/ZhiYan_mendian/ZhiYan_mendian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "门店相册",
+					"pathName": "pages/ZhiYan_photo/ZhiYan_photo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "index1",
+					"pathName": "pages/index1/index1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "index2",
+					"pathName": "pages/index2/index2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
 					"query": "",
 					"scene": null
 				}

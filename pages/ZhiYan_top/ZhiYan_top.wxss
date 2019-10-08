@@ -72,13 +72,85 @@
 
 .zy3-1 {
   width: 750rpx;
-  height: 574rpx;
+  height: 600rpx;
   background: rgba(245, 245, 245, 1);
   padding-top: 20rpx;
   align-items: center;
   justify-content: center;
   text-align: center;
-  
+}
+
+.zy3-0_image {
+  width: 200rpx;
+  height: 387rpx;
+  display: block;
+  margin: 10rpx;
+}
+
+.zy3_1_jingping {
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+}
+
+.zy3-0 {
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.zy3-1_text {
+  width: 200rpx;
+  height: 166rpx;
+  /* background: rgba(255, 255, 255, 1); */
+  padding-bottom: 20px;
+}
+
+.zy3-1-text2 {
+  width: 78rpx;
+  height: 56rpx;
+  font-size: 20rpx;
+  font-family: Didot;
+  color: rgba(13, 13, 13, 1);
+  line-height: 28rpx;
+}
+
+.zy3-1-image1 {
+  width: 102rpx;
+  height: 112rpx;
+  display: flex;
+  padding-left: 50rpx;
+}
+
+.zy3-1-image_time1 {
+  width: 24rpx;
+  height: 24rpx;
+  background: rgba(199, 199, 199, 1);
+}
+
+.zy3-1-text7 {
+  width: 98rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  font-weight: 300;
+  color: rgba(51, 51, 51, 1);
+  line-height: 34rpx;
+  padding-left: 10rpx;
+  text-decoration-line: underline;
+}
+
+.zy3-1-text8 {
+  width: 200rpx;
+  height: 166rpx;
+  font-size: 28rpx;
+  font-family: STSongti-SC-Bold, STSongti-SC;
+  font-weight: bold;
+  color: rgba(13, 13, 13, 1);
+  line-height: 32rpx;
 }
 
 .zy3-1-text1 {
@@ -106,43 +178,201 @@
   font-family: PingFangSC-Light, PingFangSC;
   color: rgba(153, 153, 153, 1);
   line-height: 34rpx;
-  padding-left: 280px
+  padding-left: 280px;
 }
-.zy3-1-text4{
-  width:290rpx;
-height:36rpx;
-font-size:26rpx;
-font-family:PingFangSC-Medium,PingFangSC;
-font-weight:500;
-color:rgba(51,51,51,1);
-line-height:36rpx;
-padding-top: 30px;
+
+.zy3-1-text4 {
+  width: 290rpx;
+  height: 36rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Medium, PingFangSC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 36rpx;
+  padding-top: 30px;
 }
-.zy3-1-text5{
- width:374rpx;
-height:34rpx;
-font-size:24rpx;
-font-family:PingFangSC-Light,PingFangSC;
-font-weight:600;
-color:rgba(153,153,153,1);
-line-height:34rpx;
+
+.zy3-1-text5 {
+  width: 374rpx;
+  height: 34rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  font-weight: 200;
+  color: rgba(153, 153, 153, 1);
+  line-height: 34rpx;
+  padding-left: 10rpx;
 }
-.zy3-1-text6{
- width:280rpx;
-height:28rpx;
-font-size:25rpx;
-font-family:PingFangSC-Light,PingFangSC;
-color:rgba(51,51,51,1);
-line-height:28rpx;
+
+.zy3-1-text6 {
+  width: 280rpx;
+  height: 28rpx;
+ font-size:20rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  color: rgba(51, 51, 51, 1);
+  line-height: 28rpx;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 30px;
   padding-left: 110px;
-
+  font-weight:300;
 }
 
-.zy4-1{
+.zy4-1 {
   width: 100%;
   height: 20px;
 }
+
+.zy4-1-dizhi {
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.zy3-4 {
+  width: 750rpx;
+  height: 400rpx;
+  background: rgba(245, 245, 245, 1);
+  padding-top: 20rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.zy3_4_image {
+  border-bottom: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.dianhua {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  width: 80rpx;
+  height: 80rpx;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 52rpx;
+  opacity: 0.6;
+}
+
+.dianhua1 {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  width: 80rpx;
+  height: 80rpx;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 52rpx;
+  opacity: 0.6;
+}
+
+/* 行业资讯 */
+
+.zy5_1_text1 {
+  display: flex;
+  width: 232rpx;
+  height: 32rpx;
+  font-size: 24rpx;
+  font-family: Didot-Bold, Didot;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  line-height: 32rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.zy5_1_text2 {
+  width: 82rpx;
+  height: 28rpx;
+  font-size: 20rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  font-weight: 300;
+  color: rgba(153, 153, 153, 1);
+  line-height: 28rpx;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.zy5_1_0 {
+  /* display: flex; */
+  position: relative;
+}
+
+.zy5_1_0_1 {
+  display: flex;
+}
+
+.zy5_1_2 {
+  padding-top: 10rpx;
+}
+
+.zy5_1_3 {
+  padding-top: 100rpx;
+}
+
+.zy5_1_1 {
+  width: 230rpx;
+  height: 74rpx;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom: -50rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.zy5_1_image1 {
+  width: 336rpx;
+  height: 380rpx;
+  display: flex;
+  margin: 15rpx;
+}
+
+.zy5_1_image2 {
+  width: 370rpx;
+  height: 150rpx;
+  display: flex;
+  right: 10rpx;
+}
+
+.zy5_1_image3 {
+  width: 370rpx;
+  height: 150rpx;
+  display: flex;
+}
+
+.zy5_1_image4 {
+   width: 20rpx;
+  height: 18rpx;
+}
+
+.physician_box {
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin: 0 32rpx 20rpx 30rpx;
+}
+
+.box {
+  display: inline-block;
+  width: 900rpx;
+  height: 433rpx;
+  background: #fff;
+  overflow: hidden;
+  /* margin-right: 14rpx; */
+}
+
+/* 
+.physician .physician_box .box .avatar{
+  display: block;
+  width:166rpx;
+  height:166rpx;
+  margin: 26rpx;
+  border-radius: 50%;
+} */
+
+/* .physician .physician_box .box .personal{
+  text-align: center;
+} */

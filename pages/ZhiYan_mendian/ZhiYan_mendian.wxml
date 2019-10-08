@@ -1,0 +1,30 @@
+<view>
+
+  <view>
+
+    <view class="bofang">
+      <image class="shiping_2_image4" src="image/bofang.png"></image>
+    </view>
+
+    <image class="shiping_2_image3" src="image/image1.png"></image>
+
+  </view>
+  <view class="shiping_2">
+
+    <text class="shiping_2_text">/芷研宣传片/</text>
+  </view>
+   <view class="bofang">
+      <image class="shiping_2_image4" src="image/bofang.png"></image>
+    </view>
+  <image class="shiping_2_image3" src="image/image1.png"></image>
+
+  <view class="shiping_2">
+
+    <text class="shiping_2_text">/芷研宣传片/</text>
+  </view>
+  <view>
+    <view class="user_4">
+      <text class="user_4_text">深圳银创网络科技提供技术支持</text>
+    </view>
+  </view>
+</view>

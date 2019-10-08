@@ -1,12 +1,12 @@
 <view>
-  <view class="zy1_1">
-    <image src="image/bangzhu.png"></image>
-    <view>
+  <view>
+    <image class="zy1_1" src="image/banner@2x.png"></image>
+    <!-- <view>
       <text class="zy1_2">来自芷研的美丽篇章</text>
     </view>
     <view>
-      <text class="zy1_3">BEAUTIFUL CHAPTER</text>
-    </view>
+      <text class="zy1_3">BEAUTIFUL   CHAPTER</text>
+    </view> -->
   </view>
   <view class="zy2-0">
     <view class="zy2-1">
@@ -81,6 +81,27 @@
       <text class="zy3-1-text2">— 精品项目 —</text>
     </view>
     <text class="zy3-1-text3">MORE >>></text>
+
+
+    <view class="physician_box">
+      <view class="box" data-url="/pages/physicianDetail/physicianDetail?id={{item.Id}}" bindtap="goTo">
+        <view class="zy3_1_jingping">
+          <view>
+            <image class="zy3-0_image" src="image/xiangmu1.png"></image>
+          </view>
+          <view>
+            <image class="zy3-0_image" src="image/xiangmu2.png"></image>
+          </view>
+          <view>
+            <image class="zy3-0_image" src="image/xiangmu3.png"></image>
+          </view>
+          <view>
+            <image class="zy3-0_image" src="image/xiangmu1.png"></image>
+          </view>
+
+        </view>
+      </view>
+    </view>
   </view>
 
 </view>
@@ -95,34 +116,70 @@
     </view>
     <text class="zy3-1-text3">MORE >>></text>
 
-
-    <view class="zy2-0">
-      <view class="zy2-1">
-        <text class="zy2-1-text1">刘志国 医师</text>
+    <view class="zy3-0">
+      <view class="zy3-1_text">
+        <image class="zy3-1-image1" src="image/yishi.png"></image>
+        <text class="zy3-1-text8">刘志国 医师</text>
         <view>
-          <text class="zy2-1-text2">隆胸、纹眉</text>
+          <text class="zy3-1-text2">隆胸、纹眉</text>
         </view>
       </view>
 
-      <view class="zy2-1">
-         <text class="zy2-1-text1">刘志国 医师</text>
+      <view class="zy3-1_text">
+        <image class="zy3-1-image1" src="image/yishi.png"></image>
+
+        <text class="zy3-1-text8">刘志国 医师</text>
         <view>
-          <text class="zy2-1-text2">隆胸、纹眉</text>
+          <text class="zy3-1-text2">隆胸、纹眉</text>
         </view>
       </view>
 
-      <view class="zy2-1">
-         <text class="zy2-1-text1">刘志国 医师</text>
+      <view class="zy3-1_text">
+        <image class="zy3-1-image1" src="image/yishi.png"></image>
+
+        <text class="zy3-1-text8">刘志国 医师</text>
         <view>
-          <text class="zy2-1-text2">隆胸、纹眉</text>
+          <text class="zy3-1-text2">隆胸、纹眉</text>
         </view>
       </view>
     </view>
-  
+    <view class="zy4-1"> </view>
+
+    <view class="zy3-0">
+      <view class="zy3-1_text">
+
+        <image class="zy3-1-image1" src="image/yishi.png"></image>
+        <text class="zy3-1-text8">刘志国 医师</text>
+        <view>
+          <text class="zy3-1-text2">隆胸、纹眉</text>
+        </view>
+      </view>
+
+      <view class="zy3-1_text">
+        <image class="zy3-1-image1" src="image/yishi.png"></image>
+
+        <text class="zy3-1-text8">刘志国 医师</text>
+        <view>
+          <text class="zy3-1-text2">隆胸、纹眉</text>
+        </view>
+      </view>
+
+      <view class="zy3-1_text">
+        <image class="zy3-1-image1" src="image/yishi.png"></image>
+
+        <text class="zy3-1-text8">刘志国 医师</text>
+        <view>
+          <text class="zy3-1-text2">隆胸、纹眉</text>
+        </view>
+      </view>
+
+    </view>
   </view>
 
 
 </view>
+
+
 <view class="zy4-1"> </view>
 <view>
   <view class="zy3-1">
@@ -133,36 +190,91 @@
       <text class="zy3-1-text2">— 行业资讯 —</text>
     </view>
     <text class="zy3-1-text3">MORE >>></text>
+    <view class="zy5_1_0_1">
+      <view class="zy5_1_0">
+        <image class="zy5_1_image1" src="image/fenxiangtu@2x.png"></image>
+        <view class="zy5_1_1">
+          <text class="zy5_1_text1">SHARING BEAUTY</text>
+          <text class="zy5_1_text2">美丽分享</text>
+          <image class="zy5_1_image4" src="image/jiantou.png"></image>
+
+        </view>
+      </view>
+      <view class="zy5_1_2">
+        <view class="zy5_1_0">
+          <image class="zy5_1_image2" src="image/yiyuandongtai.png"></image>
+          <view class="zy5_1_1">
+            <text class="zy5_1_text1">NEWS</text>
+            <text class="zy5_1_text2">医院动态</text>
+            <image class="zy5_1_image4" src="image/jiantou.png"></image>
+          </view>
+        </view>
+        <view class="zy5_1_3">
+          <view class="zy5_1_0">
+            <image class="zy5_1_image3" src="image/shenghuo@2x.png"></image>
+            <view class="zy5_1_1">
+              <text class="zy5_1_text1">LIFESTYLE</text>
+              <text class="zy5_1_text2">生活资讯</text>
+              <image class="zy5_1_image4" src="image/jiantou.png"></image>
+
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+
+
+    </view>
   </view>
 
+
+  <view>
+    <!-- <image class="zy1_1" src="image/fenxiangtu@2x.png"></image> -->
+
+  </view>
 </view>
 <view class="zy4-1"> </view>
-<view>
-  <view class="zy3-1">
-    <view>
-      <text class="zy3-1-text1">BUSINESS INFORMATION</text>
-    </view>
-    <view>
-      <text class="zy3-1-text2">— 商户信息 —</text>
-    </view>
-    <view>
+
+<view class="zy3-4">
+  <view>
+    <text class="zy3-1-text1">BUSINESS INFORMATION</text>
+  </view>
+  <view>
+    <text class="zy3-1-text2">— 商户信息 —</text>
+  </view>
+  <view>
+    <view class="zy4-1-dizhi">
       <view>
         <text class="zy3-1-text4">上海芷研医疗美容门诊部</text>
       </view>
       <view>
         <text class="zy3-1-text2">上海市静安区南京西路818号19楼</text>
+        <text class="zy3-1-text7">查看详情</text>
       </view>
+    </view>
+    <view>
       <view>
+        <image class="zy3-1-image_time1" src="image/time1.png"></image>
         <text class="zy3-1-text5">营业时间：周一到周日9:00-20:00</text>
       </view>
       <view>
+        <image class="zy3-1-image_time1" src="image/time2.png"></image>
         <text class="zy3-1-text5">停车位：有停车位，可代可泊车</text>
       </view>
-
     </view>
   </view>
-  <view class="zy4-1"> </view>
+
+</view>
+<view class="zy3_4_image">
   <view>
-    <text class="zy3-1-text6">深圳银创网络科技提供技术支持</text>
+    <image class="dianhua" src="image/dianhua@2x.png"></image>
   </view>
+  <view>
+    <image class="dianhua1" src="image/Wechat@2x.png"></image>
+  </view>
+</view>
+<view class="zy4-1"> </view>
+<view>
+  <text class="zy3-1-text6">深圳银创网络科技提供技术支持</text>
 </view>

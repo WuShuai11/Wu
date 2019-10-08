@@ -1,3 +1,7 @@
+
 {
+  "navigationBarTitleText": "上海名仁Mrare医疗美容",
+    "enablePullDownRefresh": false,
+  
   "usingComponents": {}
 }

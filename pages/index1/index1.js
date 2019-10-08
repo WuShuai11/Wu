@@ -1,29 +1,29 @@
 //index.js
 var app = getApp();
-// const desCode = require('../../utils/aesUtil.js');
+const desCode = require('../../utils/Time.js');
 // const mdCode = require('../../utils/md5.js');
 // const api_js = require("../../utils/api.js");
 
 Page({
   data: {
-    videoPath:'',
-    videoCover:'',
-    videoTitle:'',
-    albumCount:'',
-    videoCount:'',
+    videoPath: '',
+    videoCover: '',
+    videoTitle: '',
+    albumCount: '',
+    videoCount: '',
     menuList: [],
     swiperList: [],
-    swiperCurrent:0,
-    newsList:[],
-    physiciansList:[],
-    goodsList:[],
-    shareUserid:'',
+    swiperCurrent: 0,
+    newsList: [],
+    physiciansList: [],
+    goodsList: [],
+    shareUserid: '',
   },
   onLoad(options) {
     console.log(options)
     if (options.shareuserid) {
       this.setData({
-        shareUserid:options.shareuserid
+        shareUserid: options.shareuserid
       })
       this.sharingAction()
     }
@@ -33,7 +33,7 @@ Page({
   },
   onUnload() {
     this.setData({
-      shareUserid:''
+      shareUserid: ''
     })
   },
   onShareAppMessage() {
@@ -41,12 +41,12 @@ Page({
     return {
       title: "名仁医疗美容",
       path: '/pages/index/index?shareuserid=' + wx.getStorageSync("userid"),
-      success:(res) => {
+      success: (res) => {
       }
     }
   },
   // 轮播图滑动
-  swiperChange (e) {
+  swiperChange(e) {
     this.setData({
       swiperCurrent: e.detail.current
     });
@@ -61,7 +61,7 @@ Page({
         wx.openLocation({
           latitude: 31.19917,
           longitude: 121.44035,
-          name:"名仁医疗美容",
+          name: "名仁医疗美容",
           scale: 16
         })
       },
@@ -69,7 +69,7 @@ Page({
         wx.showModal({
           title: '提示',
           content: '请允许授权',
-          success (res) {
+          success(res) {
             if (res.confirm) {
               wx.openSetting({
                 success: function (dataAu) {
@@ -88,7 +88,7 @@ Page({
                         wx.openLocation({
                           latitude: 31.19917,
                           longitude: 121.44035,
-                          name:"名仁医疗美容",
+                          name: "名仁医疗美容",
                           scale: 16
                         })
                       }
@@ -102,7 +102,7 @@ Page({
                   }
                 }
               })
-              
+
             } else if (res.cancel) {
               console.log('用户点击取消')
             }
@@ -112,7 +112,7 @@ Page({
     })
   },
   // 拨打电话
-  toCall(){
+  toCall() {
     wx.makePhoneCall({
       phoneNumber: '4009933222',
     })
@@ -125,7 +125,7 @@ Page({
   },
   // 首页
   getData() {
-    // let wMsgID = desCode.wMsgID();
+    let wMsgID = desCode.wMsgID();
     // let wParam = desCode.to3des();
     let wParam = '';
     let md = mdCode.hexMD5('8888' + '1001' + wMsgID + wParam + 'q1w2e3r4t5y6');
@@ -140,8 +140,8 @@ Page({
       wRequestUserID: 4
     }
     api_js.postReq(data, (res) => {
-      if (res.ReturnCode == 0){
-        if (res.Data.length>0) {
+      if (res.ReturnCode == 0) {
+        if (res.Data.length > 0) {
           if (res.Data[0]) {
             if (res.Data[0].ListNews) {
               for (let i = 0; i < res.Data[0].ListNews.length; i++) {
@@ -150,7 +150,7 @@ Page({
               }
             }
             if (res.Data[0].ListCategory) {
-              res.Data[0].ListCategory.forEach((item,idx) => {
+              res.Data[0].ListCategory.forEach((item, idx) => {
                 if (item.Name == '注射') {
                   item.url = '/pages/injection/injection'
                 }
@@ -168,8 +168,8 @@ Page({
                 }
               });
             }
-            if (res.Data[0].ListProject){
-              res.Data[0].ListProject.forEach((item,idx) => {
+            if (res.Data[0].ListProject) {
+              res.Data[0].ListProject.forEach((item, idx) => {
                 let imageUrl = item.ImageUrl.split("$#")
                 let imageUrlArray = []
                 imageUrl.forEach((item2, idx2) => {
@@ -179,15 +179,15 @@ Page({
               });
             }
             this.setData({
-              videoPath:res.Data[0].Path,
-              videoCover:res.Data[0].Cover,
-              albumCount:res.Data[0].AlbumCout,
-              videoCount:res.Data[0].VideoCout,
-              swiperList:res.Data[0].ListBanenrs,
-              newsList:res.Data[0].ListNews,
-              physiciansList:res.Data[0].ListPhysicians,
-              menuList:res.Data[0].ListCategory,
-              goodsList:res.Data[0].ListProject
+              videoPath: res.Data[0].Path,
+              videoCover: res.Data[0].Cover,
+              albumCount: res.Data[0].AlbumCout,
+              videoCount: res.Data[0].VideoCout,
+              swiperList: res.Data[0].ListBanenrs,
+              newsList: res.Data[0].ListNews,
+              physiciansList: res.Data[0].ListPhysicians,
+              menuList: res.Data[0].ListCategory,
+              goodsList: res.Data[0].ListProject
             })
           }
         }
@@ -196,35 +196,35 @@ Page({
   },
   onReachBottom() {
   },
-  
+
   // 分享行为记录
   sharingAction() {
-    // // let wMsgID = desCode.wMsgID();
-    // let wParam
-    // if (this.data.shareUserid == '') {
-    //   wParam = desCode.to3des('actiontype=101_userid=' + wx.getStorageSync("userid") + '_typeid=1' + '_typename=首页_productid=0_productname=0');
-    // }
-    // else{
-    //   wParam = desCode.to3des('actiontype=102_userid=' + this.data.shareUserid + '_onuserid=' + wx.getStorageSync("userid") + '_typeid=1' + '_typename=首页_productid=0_productname=0');
-    // }
-    
-    // let md = mdCode.hexMD5('8888' + '6007' + wMsgID + wParam + 'q1w2e3r4t5y6');
-    // const data = {
-    //   wAgent: 8888,
-    //   wAction: 6007,
-    //   wMsgID: wMsgID,
-    //   wParam: wParam,
-    //   wSign: md,
-    //   wImei: 222,
-    //   wVersion: 2,
-    //   wRequestUserID: 4
-    // }
-    // api_js.postReq(data, (res) => {
-    //   if (res.ReturnCode == 0){
-    //     if (res.Data.length>0) {
+    let wMsgID = desCode.wMsgID();
+    let wParam
+    if (this.data.shareUserid == '') {
+      wParam = desCode.to3des('actiontype=101_userid=' + wx.getStorageSync("userid") + '_typeid=1' + '_typename=首页_productid=0_productname=0');
+    }
+    else {
+      wParam = desCode.to3des('actiontype=102_userid=' + this.data.shareUserid + '_onuserid=' + wx.getStorageSync("userid") + '_typeid=1' + '_typename=首页_productid=0_productname=0');
+    }
 
-    //     }
-    //   }
-    // })  
+    let md = mdCode.hexMD5('8888' + '6007' + wMsgID + wParam + 'q1w2e3r4t5y6');
+    const data = {
+      wAgent: 8888,
+      wAction: 6007,
+      wMsgID: wMsgID,
+      wParam: wParam,
+      wSign: md,
+      wImei: 222,
+      wVersion: 2,
+      wRequestUserID: 4
+    }
+    api_js.postReq(data, (res) => {
+      if (res.ReturnCode == 0) {
+        if (res.Data.length > 0) {
+
+        }
+      }
+    })
   }
 })
