@@ -48,7 +48,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -110,6 +110,34 @@
 					"id": -1,
 					"name": "pages/index/index",
 					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "名仁——我的",
+					"pathName": "pages/MingRen_wode/MingRen_wode",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "名仁——积分明细",
+					"pathName": "pages/MingRen_mingxi/MingRen_mingxi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "名仁——任务规则",
+					"pathName": "pages/MingRen_guize/MingRen_guize",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "名仁——测试",
+					"pathName": "pages/MingRen_ceshi/MingRen_ceshi",
 					"query": "",
 					"scene": null
 				}

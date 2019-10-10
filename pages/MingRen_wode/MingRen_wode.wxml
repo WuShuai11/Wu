@@ -1,0 +1,57 @@
+<!--my.wxml-->
+<view>
+  <button wx:if="{{!avatar||avatar==''}}" class="head" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+    <image class="wode_image" src="../../images/avatar.png"></image>
+    <view class="ellipsis">名仁</view>
+    
+    <button class="r" bindtap="goTo" data-url="/pages/MingRen_ceshi/MingRen_ceshi">
+      <text>登录</text>
+      <image class="wode_image2" src="../../images/qiandao.png"></image>
+    </button>
+
+  </button>
+
+  <view class="login" wx:if="{{(avatar||avatar!=='')&&(!phone||phone=='')}}">
+    <!-- <view class="l">登录手机号，同步全渠道订单</view> -->
+  </view>
+
+
+  <view class="order">
+    <view class="title">我的订单</view>
+    <view class="order_box">
+      <view class="box" bindtap="goTo" data-url="/pages/order/order?index=0">
+        <image src="../../images/order_all.png" mode="aspectFit"></image>
+        <view>全部</view>
+      </view>
+      <view class="box" bindtap="goTo" data-url="/pages/order/order?index=1">
+        <image src="../../images/order_unpaid.png" mode="aspectFit"></image>
+        <view>待付款</view>
+      </view>
+      <view class="box" bindtap="goTo" data-url="/pages/order/order?index=2">
+        <image src="../../images/order_use.png" mode="aspectFit"></image>
+        <view>可使用</view>
+      </view>
+      <view class="box" bindtap="goTo" data-url="/pages/order/order?index=3">
+        <image src="../../images/order_failed.png" mode="aspectFit"></image>
+        <view>已完成</view>
+      </view>
+    </view>
+  </view>
+  <view class="option">
+    <view class="option_box" bindtap="goTo" data-url="/pages/collect/collect">
+      <image class="icon" src="../../images/my_collect.png"></image>
+      <view class="text">我的收藏</view>
+      <image class="angle" src="../../images/go.png"></image>
+    </view>
+    <view class="option_box" bindtap="notYetopen">
+      <image class="icon" src="../../images/my_coupon.png"></image>
+      <view class="text">优惠券</view>
+      <image class="angle" src="../../images/go.png"></image>
+    </view>
+    <view class="option_box" bindtap="toCall">
+      <image class="icon" src="../../images/my_contact.png"></image>
+      <view class="text">联系我们</view>
+      <image class="angle" src="../../images/go.png"></image>
+    </view>
+  </view>
+</view>

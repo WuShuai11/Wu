@@ -1,15 +1,20 @@
 {
   "pages": [
     "pages/index/index",
-        "pages/index1/index1",
-       "pages/index2/index2", 
+    "pages/index1/index1",
+    "pages/index2/index2",
     "pages/logs/logs",
     "pages/mta_analysis/mta_analysis",
     "pages/ZhiYan_top/ZhiYan_top",
     "pages/ZhiYan_user/ZhiYan_user",
     "pages/ZhiYan_map/ZhiYan_map",
     "pages/ZhiYan_mendian/ZhiYan_mendian",
-"pages/ZhiYan_photo/ZhiYan_photo"
+    "pages/ZhiYan_photo/ZhiYan_photo",
+    "pages/MingRen_wode/MingRen_wode",
+    "pages/MingRen_mingxi/MingRen_mingxi",
+    "pages/MingRen_ceshi/MingRen_ceshi",
+    "pages/MingRen_guize/MingRen_guize"
+
     
   ],
   "window": {

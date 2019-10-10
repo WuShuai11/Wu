@@ -1,0 +1,96 @@
+<view class="guize_1_top">
+  <view>
+    <text class="guize_1_text1">一、规则说明</text>
+  </view>
+
+  <view class="guize_1_top3">
+    <text class="guize_1_text2">1.授权登录</text>
+  </view>
+  <view class="guize_1_top2">
+    <text class="guize_1_text3">1）用户登录小程序并授权使用微信头像及昵称，且登录手机号（一个微信号一次）+100积分；</text>
+  </view>
+
+  <view class="guize_1_top3">
+    <text class="guize_1_text2">2.购买项目</text>
+  </view>
+  <view class="guize_1_top2">
+    <text class="guize_1_text3">1）用户在前台购买项目后，购买成功+500积分，每日一次；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">2）若项目无尾款，积分及时到账，若项目有尾款，尾款支付成功后积分到账；</text>
+  </view>
+
+  <view class="guize_1_top3">
+    <text class="guize_1_text2">3.邀请好友购买项目</text>
+  </view>
+  <view class="guize_1_top2">
+    <text class="guize_1_text3">1）被邀请者购买项目且使用后，邀请人+500积分，无上限；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">2）被邀请人需为小程序的新用户；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">3）被邀请人需在邀请人链接内购买商品；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">4）链接有效时间为5天；</text>
+  </view>
+
+
+  <view class="guize_1_top3">
+    <text class="guize_1_text2">4.邀请好友登录</text>
+  </view>
+  <view class="guize_1_top2">
+    <text class="guize_1_text3">1）每邀请1位用户+100积分；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">2）若累计分享给5位用户，可额外+100积分；每日一次；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">3）被邀请人需在邀请者邀请的小程序内登录小程序并授权使用微信头像及昵称，且登录手机号；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">4）被邀请人需小程序的新用户；</text>
+  </view>
+  <view class="guize_1_top4">
+    <text class="guize_1_text3">5）邀请链接有效期为5天；</text>
+  </view>
+
+
+  <view>
+    <view>
+      <text class="guize_1_text1">二、如何使用积分</text>
+    </view>
+    <view class="guize_1_top2">
+      <text class="guize_1_text3">有效期为一年，每年1月1日零点开始计算，每年12月31日23：59分清零。</text>
+    </view>
+  </view>
+
+  <view>
+    <view>
+      <text class="guize_1_text1">三、其他说明</text>
+    </view>
+    <view class="guize_1_top2">
+      <text class="guize_1_text3">1）积分使用过程不清零、不兑现、不开发票、不可转移到其他账户；</text>
+    </view>
+    <view class="guize_1_top4">
+      <text class="guize_1_text3">2）使用积分兑换，申请一旦提交，一律不能取消（除去缺货）；</text>
+    </view>
+    <view class="guize_1_top4">
+      <text class="guize_1_text3">3）因地址原因造成的无法缺货，平台不会补发；</text>
+    </view>
+    <view class="guize_1_top4">
+      <text class="guize_1_text3">4）兑换的奖品不可退换；</text>
+    </view>
+    <view class="guize_1_top4">
+      <text class="guize_1_text3">5）积分权益的最终解释权归名仁小程序所有；</text>
+    </view>
+    <view class="guize_1_top4">
+      <text class="guize_1_text3">6）积分说明当前版本1.0；</text>
+    </view>
+    <view class="guize_1_top4">
+      <text class="guize_1_text3">7）积分权益体系会不定期根据用户体验和反馈做优化，内容会不定期更新。最终会以最新版本为规则依据；</text>
+    </view>
+
+  </view>
+</view>

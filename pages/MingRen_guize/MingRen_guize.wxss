@@ -1,0 +1,44 @@
+.guize_1_top {
+  padding: 35rpx;
+}
+.guize_1_top2{
+  padding: 25rpx;
+
+}
+.guize_1_top3{
+  padding-top: 20rpx;
+}
+.guize_1_top4{
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.guize_1_text1 {
+  width: 184rpx;
+  height: 42rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium, PingFangSC;
+  font-weight: 580;
+  color: rgba(0, 0, 0, 1);
+  line-height: 42rpx;
+}
+
+.guize_1_text2 {
+  width: 686rpx;
+  height: 28rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFangSC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 28rpx;
+}
+
+.guize_1_text3 {
+  width: 664rpx;
+  height: 74rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Light, PingFangSC;
+  font-weight: 300;
+  color: rgba(153, 153, 153, 1);
+  line-height: 40rpx;
+}

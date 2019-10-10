@@ -52,11 +52,11 @@
       <text class="user_3_text1">— 专属推荐 —</text>
       <view class="user_3_4">
         <view class="user_3_4_1">
-          <image class="user_3_image" src="image/zuji.png"></image>
+          <image class="user_3_image" src="image/image1.png"></image>
           <text class="user_3_text2">深层清洁+补水</text>
         </view>
         <view class="user_3_4_1">
-          <image class="user_3_image" src="image/zuji.png"></image>
+          <image class="user_3_image" src="image/image1.png"></image>
           <text class="user_3_text2">深层清洁+补水</text>
         </view>
       </view>

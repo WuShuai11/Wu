@@ -1,0 +1,71 @@
+<view>
+  <view class="mingxi_1_top">
+    <text class="mingxi_1_text1">积分变动记录</text>
+
+    <view class="mingxi_2_top1">
+      <text class="mingxi_2_text1">签到得积分</text>
+      <view class="mingxi_2_top2">
+        <text class="mingxi_2_text2">+30积分</text>
+      </view>
+    </view>
+    <view>
+      <text class="mingxi_2_text3">2010-11-11 10:20:30</text>
+    </view>
+    <view>
+    <image class="mingxi_2_image1"></image>
+    </view>
+
+<view class="mingxi_2_top1">
+      <text class="mingxi_2_text1">授权登录</text>
+      <view class="mingxi_2_top2">
+        <text class="mingxi_2_text2">+30积分</text>
+      </view>
+    </view>
+    <view>
+      <text class="mingxi_2_text3">2010-11-11 10:20:30</text>
+    </view>
+    <view>
+    <image class="mingxi_2_image1"></image>
+    </view>
+
+<view class="mingxi_2_top1">
+      <text class="mingxi_2_text1">购买项目</text>
+      <view class="mingxi_2_top2">
+        <text class="mingxi_2_text2">+30积分</text>
+      </view>
+    </view>
+    <view>
+      <text class="mingxi_2_text3">2010-11-11 10:20:30</text>
+    </view>
+    <view>
+    <image class="mingxi_2_image1"></image>
+    </view>
+
+<view class="mingxi_2_top1">
+      <text class="mingxi_2_text1">要求好友登录</text>
+      <view class="mingxi_2_top2">
+        <text class="mingxi_2_text2">+30积分</text>
+      </view>
+    </view>
+    <view>
+      <text class="mingxi_2_text3">2010-11-11 10:20:30</text>
+    </view>
+    <view>
+    <image class="mingxi_2_image1"></image>
+    </view>
+
+<view class="mingxi_2_top1">
+      <text class="mingxi_2_text1">邀请好友购买</text>
+      <view class="mingxi_2_top2">
+        <text class="mingxi_2_text2">+30积分</text>
+      </view>
+    </view>
+    <view>
+      <text class="mingxi_2_text3">2010-11-11 10:20:30</text>
+    </view>
+    <view>
+    <image class="mingxi_2_image1"></image>
+    </view>
+
+  </view>
+</view>
